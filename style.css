@@ -129,7 +129,7 @@ hr {
     background-image: url("https://i.imgur.com/gAOKXLw.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
     color: #fff;
     font-weight: bold;
 }
