@@ -109,7 +109,7 @@ p {
 }
 /* contact */
 #contact {
-    background-image: url(../img/contact-drone.jpg);
+    background-image: url("https://i.imgur.com/gAOKXLw.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
