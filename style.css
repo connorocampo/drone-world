@@ -138,6 +138,11 @@ hr {
     font-size: 38px;
 }
 
+#contact-text {
+    margin: 10px 15px 35px 0;
+    font-weight: normal;
+}
+
 /* footer */
 footer p{
     margin: 6px 0;
