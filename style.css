@@ -18,6 +18,16 @@ p {
     margin: 0 15px;
 }
 
+hr {
+    width: 900px;
+}
+
+@media screen and (max-width: 700px) {
+    hr {
+        display: none;
+    }
+}
+
 /* navbar */
 .navbar {
     background: #fff;
@@ -53,6 +63,13 @@ p {
 
 #showcase .showcase-right {
     margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    #showcase img {
+        width: 100%;
+        margin-top: 0px;
+    }
 }
 
 /* testimonial*/
@@ -109,7 +126,7 @@ p {
 }
 /* contact */
 #contact {
-    background-image: url("https://i.imgur.com/gAOKXLw.jpg");
+    background-image: url(../img/contact-drone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
