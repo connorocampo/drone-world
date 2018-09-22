@@ -126,8 +126,7 @@ hr {
 }
 /* contact */
 #contact {
-    background-image: url(drone-world-product-page/img/contact-drone.jpg
-    );
+    background-image: url("https://i.imgur.com/gAOKXLw.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
