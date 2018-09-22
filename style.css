@@ -1,0 +1,103 @@
+/* global */
+body {
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins;
+}
+
+p {
+    font-family: roboto;
+}
+
+/* navbar */
+.navbar {
+    background: #fff;
+    border: 0;
+    font-family: Poppins;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* showcase */
+#showcase h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#showcase img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#showcase .showcase-right {
+    margin-top: 30px;
+}
+
+/* testimonial*/
+#testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#testimonial p {
+    font-size: 28px;
+    font-family: "josefin sans";
+    color: #000;
+}
+
+#testimonial p.customer {
+    font-size: 20px;
+    color: #666;
+}
+
+/* info blocks */
+.info-left img {
+    width: 80%;
+}
+
+#info1 .info-right {
+    margin-top: 90px;
+}
+
+#info2 {
+    margin: 40px 0 40px 0;
+}
+
+#contact {
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #info1 .info-right {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    #info2 .info-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/* footer */
+footer p{
+    padding: 6px;
+    margin-bottom: 0;
+    font-size: 16px;
+    background: #fff;
+    color: #1d1e23;
+}
