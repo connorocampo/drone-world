@@ -72,6 +72,12 @@ hr {
     }
 }
 
+@media screen and (max-width: 700px) {
+    #showcase h1 {
+    font-size: 48px;
+    }
+}
+
 /* testimonial*/
 #testimonial {
     background: #f1f1f1;
