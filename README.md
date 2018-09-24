@@ -1,4 +1,4 @@
-# drone-world-product-page
+# Drone World Product Page
 
 [Latest Project] A responsive product page built with Bootstrap 4.1.3.
 
