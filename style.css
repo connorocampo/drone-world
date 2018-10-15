@@ -141,9 +141,9 @@ nav .nav-link:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    #info1 .info-right {
+    #info1 .info-right, .info-left img {
         width: 100%;
-        margin-top: 0px;
+        padding: 0;
     }
 
     #info2 .info-left {
@@ -154,6 +154,12 @@ nav .nav-link:hover {
     #info2 .info-right {
         width: 100%;
         margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #info1 .info-right, .info-left img  {
+        margin: 5px;
     }
 }
 /* contact */
