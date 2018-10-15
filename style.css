@@ -50,11 +50,11 @@ nav .nav-link {
     margin: 10px;
 }
 
-/* nav .nav-link:hover {
+nav .nav-link:hover {
     background: #343A40;
     color: #fff !important;
     border-radius: 4px;
-} */
+}
 
 /* showcase */
 #showcase {
@@ -84,6 +84,12 @@ nav .nav-link {
     #showcase img {
         width: 100%;
         margin-top: 0px;
+    }
+
+    nav .nav-link:hover {
+        background: #fff;
+        color: #343A40 !important;
+        border-radius: 4px;
     }
 
 }
