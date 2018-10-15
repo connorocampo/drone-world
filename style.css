@@ -49,6 +49,7 @@ hr {
 /* showcase */
 #showcase {
     padding: 80px 0 40px 0;
+    height: 550px;
 }
 
 #showcase h1 {
@@ -73,6 +74,10 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
+    #showcase {
+        height: 100%;
+    }
+
     #showcase h1 {
     font-size: 40px;
     }

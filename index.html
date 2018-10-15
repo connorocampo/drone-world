@@ -37,24 +37,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="showcase-left">
+                    <div class="showcase-left fade-left">
                         <img src="img/drone1.png">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="showcase-right">
-                        <h1>Welcome to Drone&nbsp;World!</h1>
-                        <p>Honest (and possibly brutal) reviews from drone pilots without marketing bias. Drone pilots from all over the globe share their experiences with their drone(s) so that other pilots can make an informed decision before making a purchase!</p>
+                        <h1 class="fade-right">Welcome to Drone&nbsp;World!</h1>
+                        <p class="fade-bottom">Honest (and possibly brutal) reviews from drone pilots without marketing bias. Drone pilots from all over the globe share their experiences with their drone(s) so that other pilots can make an informed decision before making a purchase!</p>
                     </div>
                     <br>
-                    <a href="#" class="btn btn-dark btn-lg showcase-btn main-btns">Read More</a>
+                    <a href="#" class="btn btn-dark btn-lg showcase-btn main-btns fade-bottom">Read More</a>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="testimonial">
-        <div class="container">
+        <div class="container fade-top">
             <p>"It's great to come to a place where there is no bias placed upon a product other than the user's honest experience and opinion of it."</p><span id="reviews"></span>
             <p class="customer">– Kyle Smith</p>
         </div>
@@ -64,12 +64,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="info-left">
+                    <div class="info-left fade-top">
                         <img src="img/drone2.png">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="info-right">
+                    <div class="info-right fade-right">
                         <h2>Become an Expert on <strong>Your</strong> Drone!</h2>
                         <p>Drone World has almost every drone on the market featured in our listings thanks to our fast-growing reviewer base. Check out our directory of user submissions and their reviews!</p>
                         <br />
@@ -86,7 +86,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="info-left">
+                    <div class="info-left fade-left">
                         <h2>General Drone Maintenance</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perferendis laborum sapiente molestiae quas voluptatibus recusandae, dolores eaque illum eos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perferendis laborum sapiente molestiae quas voluptatibus recusandae, dolores eaque illum eos!</p>
                         <br />
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="info-right">
+                    <div class="info-right fade-bottom">
                         <h2>Important Laws by Location</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perferendis laborum sapiente molestiae quas voluptatibus recusandae, dolores eaque illum eos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perferendis laborum sapiente molestiae quas voluptatibus recusandae, dolores eaque illum eos!</p>
                         <br /><span id="contact-span"></span>
@@ -108,7 +108,7 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-12">
+                <div class="col-lg-7 col-md-7 col-sm-12 fade-top">
                     <form>
                         <label id="contact-us">Contact Us </label>
                         <p id="contact-text">Got a question or strongly worded statement? Feel free to drop a line by using our contact form below!</p>
@@ -144,6 +144,37 @@
     $('.navbar-nav>li>a').on('click', function(){
 $('.navbar-collapse').collapse('hide');
 });
+    </script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.fade-bottom', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px',
+        viewFactor: 0.2
+      });
+      sr.reveal('.fade-top', {
+        duration: 2000,
+        origin: 'top',
+        distance: '10px',
+        viewFactor: 0.2
+      });
+      sr.reveal('.fade-right', {
+        duration: 2000,
+        origin: 'right',
+        distance: '30px',
+        viewFactor: 0.2
+      });
+      sr.reveal('.fade-left', {
+        duration: 2000,
+        origin: 'left',
+        distance: '30px',
+        viewFactor: 0.2
+      });
     </script>
 </body>
 </html>
