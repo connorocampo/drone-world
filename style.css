@@ -188,3 +188,36 @@ footer p{
     background: #fff;
     color: #1d1e23;
 }
+
+/* logo-quilt */
+.logo-quilt {
+    height: 250px;
+    background: #222;
+    text-align: center;
+}
+
+.logo-quilt h1 {
+    padding: 40px;
+    color: #fff;
+}
+
+.logo-quilt img {
+    height: 70px;;
+    padding: 10px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width: 700px) {
+    .logo-quilt {
+        height: 300px;
+    }
+
+    .logo-quilt h1 {
+        font-size: 25px;
+    }
+
+    .logo-quilt img {
+        height: 70px;
+    }
+}
