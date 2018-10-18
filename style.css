@@ -134,6 +134,28 @@ nav .nav-link:hover {
     color: #666;
 }
 
+.logo-container {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    height: 20px;
+    top: 100%;
+    right: 0%;
+    transform: translate(-50%, -50%); */
+}
+
+@media screen and (max-width: 700px) {
+.logo {
+    position: absolute;
+    height: 20px;
+    top: 100%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    }
+}
+
 /* info blocks */
 .info-left img {
     width: 80%;
